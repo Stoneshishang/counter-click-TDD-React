@@ -1,5 +1,9 @@
 This is the first TDD app with React, TDD of counter click app. 
 
+This app uses Enmzy for Unit test. so need to add below dependencies
+
+### `yarn add -dev @wojtekmaj/enzyme-adapter-react-17 enzyme jest-enzyme`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
