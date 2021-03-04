@@ -4,6 +4,13 @@ This app uses Enmzy for Unit test. so need to add below dependencies
 
 ### `yarn add -dev @wojtekmaj/enzyme-adapter-react-17 enzyme jest-enzyme`
 
+To get rid of the ### `data-set` attribute in the production build, do 
+
+### `yarn add babel-plugin-react-remove-properties` 
+
+then npm run eject, then change the package.json accordingly, then npm run build, etc. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
